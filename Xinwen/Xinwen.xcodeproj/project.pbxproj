@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38C343721C50D67F00D0D8C3 /* NetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C343711C50D67F00D0D8C3 /* NetWork.m */; };
 		38DE3D151C507D920015274C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DE3D141C507D920015274C /* main.m */; };
 		38DE3D181C507D920015274C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DE3D171C507D920015274C /* AppDelegate.m */; };
 		38DE3D1E1C507D920015274C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38DE3D1C1C507D920015274C /* Main.storyboard */; };
@@ -38,6 +39,8 @@
 /* Begin PBXFileReference section */
 		10B1128F0678746369A0F909 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		3686A5BEEE8C783C305953B3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		38C343701C50D67F00D0D8C3 /* NetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWork.h; sourceTree = "<group>"; };
+		38C343711C50D67F00D0D8C3 /* NetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWork.m; sourceTree = "<group>"; };
 		38DE3D101C507D920015274C /* Xinwen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xinwen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38DE3D141C507D920015274C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		38DE3D161C507D920015274C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -159,6 +162,8 @@
 		38DE3D461C50891F0015274C /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				38C343701C50D67F00D0D8C3 /* NetWork.h */,
+				38C343711C50D67F00D0D8C3 /* NetWork.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -363,6 +368,7 @@
 			files = (
 				38DE3D181C507D920015274C /* AppDelegate.m in Sources */,
 				38DE3D4A1C50897D0015274C /* ViewController.m in Sources */,
+				38C343721C50D67F00D0D8C3 /* NetWork.m in Sources */,
 				38DE3D151C507D920015274C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
