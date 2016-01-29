@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		383F05FD1C59B2CA00E5F1FC /* ChannelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 383F05FC1C59B2CA00E5F1FC /* ChannelCell.m */; };
+		384DBADD1C58633A001F9661 /* TopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 384DBADC1C58633A001F9661 /* TopView.m */; };
+		384DBAE01C587862001F9661 /* ChannelLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 384DBADF1C587862001F9661 /* ChannelLabel.m */; };
 		38C343721C50D67F00D0D8C3 /* NetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C343711C50D67F00D0D8C3 /* NetWork.m */; };
+		38C343791C50E67600D0D8C3 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C343781C50E67600D0D8C3 /* NSArray+Log.m */; };
 		38DE3D151C507D920015274C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DE3D141C507D920015274C /* main.m */; };
 		38DE3D181C507D920015274C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DE3D171C507D920015274C /* AppDelegate.m */; };
 		38DE3D1E1C507D920015274C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38DE3D1C1C507D920015274C /* Main.storyboard */; };
@@ -15,7 +19,14 @@
 		38DE3D231C507D920015274C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38DE3D211C507D920015274C /* LaunchScreen.storyboard */; };
 		38DE3D2E1C507D920015274C /* XinwenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DE3D2D1C507D920015274C /* XinwenTests.m */; };
 		38DE3D391C507D920015274C /* XinwenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DE3D381C507D920015274C /* XinwenUITests.m */; };
-		38DE3D4A1C50897D0015274C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DE3D491C50897D0015274C /* ViewController.m */; };
+		38FD0CE41C5616AD00216A94 /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD0CE31C5616AD00216A94 /* NSObject+Extension.m */; };
+		38FD0CEF1C56190000216A94 /* ImageCel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD0CE81C56190000216A94 /* ImageCel.m */; };
+		38FD0CF01C56190000216A94 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD0CEA1C56190000216A94 /* News.m */; };
+		38FD0CF11C56190000216A94 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD0CEC1C56190000216A94 /* NewsCell.m */; };
+		38FD0CF21C56190000216A94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD0CEE1C56190000216A94 /* ViewController.m */; };
+		38FD0CF51C56194A00216A94 /* Channel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD0CF41C56194A00216A94 /* Channel.m */; };
+		38FD0CF71C5628CB00216A94 /* topic_news.json in Resources */ = {isa = PBXBuildFile; fileRef = 38FD0CF61C5628CB00216A94 /* topic_news.json */; };
+		38FD0CFA1C56307900216A94 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD0CF91C56307900216A94 /* HomeVC.m */; };
 		92B6CA386EC1919AF1A6DA45 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3686A5BEEE8C783C305953B3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -39,8 +50,17 @@
 /* Begin PBXFileReference section */
 		10B1128F0678746369A0F909 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		3686A5BEEE8C783C305953B3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		383F05FB1C59B2CA00E5F1FC /* ChannelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelCell.h; sourceTree = "<group>"; };
+		383F05FC1C59B2CA00E5F1FC /* ChannelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelCell.m; sourceTree = "<group>"; };
+		384DBADB1C58633A001F9661 /* TopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopView.h; sourceTree = "<group>"; };
+		384DBADC1C58633A001F9661 /* TopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopView.m; sourceTree = "<group>"; };
+		384DBADE1C587862001F9661 /* ChannelLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelLabel.h; sourceTree = "<group>"; };
+		384DBADF1C587862001F9661 /* ChannelLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelLabel.m; sourceTree = "<group>"; };
+		385F23D41C51DE8600ABD88E /* Xinwen.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Xinwen.pch; sourceTree = "<group>"; };
 		38C343701C50D67F00D0D8C3 /* NetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWork.h; sourceTree = "<group>"; };
 		38C343711C50D67F00D0D8C3 /* NetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWork.m; sourceTree = "<group>"; };
+		38C343771C50E67600D0D8C3 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		38C343781C50E67600D0D8C3 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
 		38DE3D101C507D920015274C /* Xinwen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xinwen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38DE3D141C507D920015274C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		38DE3D161C507D920015274C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,8 +75,21 @@
 		38DE3D341C507D920015274C /* XinwenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XinwenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38DE3D381C507D920015274C /* XinwenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XinwenUITests.m; sourceTree = "<group>"; };
 		38DE3D3A1C507D920015274C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38DE3D481C50897D0015274C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		38DE3D491C50897D0015274C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		38FD0CE21C5616AD00216A94 /* NSObject+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
+		38FD0CE31C5616AD00216A94 /* NSObject+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
+		38FD0CE71C56190000216A94 /* ImageCel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCel.h; sourceTree = "<group>"; };
+		38FD0CE81C56190000216A94 /* ImageCel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCel.m; sourceTree = "<group>"; };
+		38FD0CE91C56190000216A94 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		38FD0CEA1C56190000216A94 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		38FD0CEB1C56190000216A94 /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
+		38FD0CEC1C56190000216A94 /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
+		38FD0CED1C56190000216A94 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		38FD0CEE1C56190000216A94 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		38FD0CF31C56194A00216A94 /* Channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Channel.h; sourceTree = "<group>"; };
+		38FD0CF41C56194A00216A94 /* Channel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Channel.m; sourceTree = "<group>"; };
+		38FD0CF61C5628CB00216A94 /* topic_news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_news.json; sourceTree = "<group>"; };
+		38FD0CF81C56307900216A94 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		38FD0CF91C56307900216A94 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
 		5D353CA77A50BDCA893FA345 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +128,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		38C343761C50E67600D0D8C3 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				38C343771C50E67600D0D8C3 /* NSArray+Log.h */,
+				38C343781C50E67600D0D8C3 /* NSArray+Log.m */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
 		38DE3D071C507D920015274C = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +166,7 @@
 				38DE3D461C50891F0015274C /* Tools */,
 				38DE3D161C507D920015274C /* AppDelegate.h */,
 				38DE3D171C507D920015274C /* AppDelegate.m */,
+				385F23D41C51DE8600ABD88E /* Xinwen.pch */,
 				38DE3D1C1C507D920015274C /* Main.storyboard */,
 				38DE3D1F1C507D920015274C /* Assets.xcassets */,
 				38DE3D211C507D920015274C /* LaunchScreen.storyboard */,
@@ -162,8 +205,11 @@
 		38DE3D461C50891F0015274C /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				38C343761C50E67600D0D8C3 /* Log */,
 				38C343701C50D67F00D0D8C3 /* NetWork.h */,
 				38C343711C50D67F00D0D8C3 /* NetWork.m */,
+				38FD0CE21C5616AD00216A94 /* NSObject+Extension.h */,
+				38FD0CE31C5616AD00216A94 /* NSObject+Extension.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -171,10 +217,44 @@
 		38DE3D471C5089260015274C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				38DE3D481C50897D0015274C /* ViewController.h */,
-				38DE3D491C50897D0015274C /* ViewController.m */,
+				38FD0CE51C5618F700216A94 /* Channel */,
+				38FD0CE61C56190000216A94 /* News */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		38FD0CE51C5618F700216A94 /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				38FD0CF61C5628CB00216A94 /* topic_news.json */,
+				38FD0CF31C56194A00216A94 /* Channel.h */,
+				38FD0CF41C56194A00216A94 /* Channel.m */,
+				38FD0CF81C56307900216A94 /* HomeVC.h */,
+				38FD0CF91C56307900216A94 /* HomeVC.m */,
+				383F05FB1C59B2CA00E5F1FC /* ChannelCell.h */,
+				383F05FC1C59B2CA00E5F1FC /* ChannelCell.m */,
+				384DBADB1C58633A001F9661 /* TopView.h */,
+				384DBADC1C58633A001F9661 /* TopView.m */,
+				384DBADE1C587862001F9661 /* ChannelLabel.h */,
+				384DBADF1C587862001F9661 /* ChannelLabel.m */,
+			);
+			name = Channel;
+			path = ../Tools/Log/Channel;
+			sourceTree = "<group>";
+		};
+		38FD0CE61C56190000216A94 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				38FD0CE71C56190000216A94 /* ImageCel.h */,
+				38FD0CE81C56190000216A94 /* ImageCel.m */,
+				38FD0CE91C56190000216A94 /* News.h */,
+				38FD0CEA1C56190000216A94 /* News.m */,
+				38FD0CEB1C56190000216A94 /* NewsCell.h */,
+				38FD0CEC1C56190000216A94 /* NewsCell.m */,
+				38FD0CED1C56190000216A94 /* ViewController.h */,
+				38FD0CEE1C56190000216A94 /* ViewController.m */,
+			);
+			path = News;
 			sourceTree = "<group>";
 		};
 		3B6C2739E212B4D5E35D26F2 /* Frameworks */ = {
@@ -293,6 +373,7 @@
 			files = (
 				38DE3D231C507D920015274C /* LaunchScreen.storyboard in Resources */,
 				38DE3D201C507D920015274C /* Assets.xcassets in Resources */,
+				38FD0CF71C5628CB00216A94 /* topic_news.json in Resources */,
 				38DE3D1E1C507D920015274C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,10 +447,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38FD0CEF1C56190000216A94 /* ImageCel.m in Sources */,
+				38FD0CF11C56190000216A94 /* NewsCell.m in Sources */,
 				38DE3D181C507D920015274C /* AppDelegate.m in Sources */,
-				38DE3D4A1C50897D0015274C /* ViewController.m in Sources */,
+				38FD0CF51C56194A00216A94 /* Channel.m in Sources */,
+				38FD0CE41C5616AD00216A94 /* NSObject+Extension.m in Sources */,
+				38FD0CF21C56190000216A94 /* ViewController.m in Sources */,
+				384DBADD1C58633A001F9661 /* TopView.m in Sources */,
+				38FD0CFA1C56307900216A94 /* HomeVC.m in Sources */,
+				384DBAE01C587862001F9661 /* ChannelLabel.m in Sources */,
+				38C343791C50E67600D0D8C3 /* NSArray+Log.m in Sources */,
 				38C343721C50D67F00D0D8C3 /* NetWork.m in Sources */,
+				38FD0CF01C56190000216A94 /* News.m in Sources */,
 				38DE3D151C507D920015274C /* main.m in Sources */,
+				383F05FD1C59B2CA00E5F1FC /* ChannelCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,7 +600,9 @@
 			baseConfigurationReference = 5D353CA77A50BDCA893FA345 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Xinwen/Xinwen.pch";
 				INFOPLIST_FILE = Xinwen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hyp.Xinwen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -521,7 +614,9 @@
 			baseConfigurationReference = 10B1128F0678746369A0F909 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Xinwen/Xinwen.pch";
 				INFOPLIST_FILE = Xinwen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hyp.Xinwen;
 				PRODUCT_NAME = "$(TARGET_NAME)";

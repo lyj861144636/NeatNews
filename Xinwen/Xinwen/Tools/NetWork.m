@@ -18,6 +18,8 @@
     dispatch_once(&onceToken, ^{
         NSURL *url = [NSURL URLWithString:@"http://c.m.163.com/nc/article/headline/"];
         instance = [[self alloc] initWithBaseURL:url];
+        
+        instance.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript", @"text/html", nil];
     });
     return instance;
 }

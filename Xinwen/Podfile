@@ -1,4 +1,4 @@
+pod 'Masonry'
 pod 'AFNetworking'
 pod 'SDWebImage'
-
 
